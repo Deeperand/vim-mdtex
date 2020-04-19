@@ -1,9 +1,20 @@
 # vim-mdtex
 some useful command for markdown and LaTeX
 
+## Install
+&emsp;&emsp;You can use and package management to install `vim-mdtex`. With `vim-plug`, just add current code to your `vimrc`:
+
+```vim
+call plug#begin('~/.vim/plugged')
+    Plug 'Deeperand/vim-mdtex', {'for': ['tex', 'markdown']}
+call plug#end()
+```
+
+The content in file will just load the plug only if the file's type is `tex` or `markdown`. Then save `vimrc` and sorce it (or just restart *Vim*), and run `:PlugInstall`.
+
 ## Main Feature
 ### Words Modify
-Use key such as `<localleader>b` to bold char under cursor in `NORMAL` mode or selected content in `VISUAL` mode. For LaTeX file, it will use `\textbf{<text>}`; for markdown file, it will use `**<text>**`.
+&emsp;&emsp;Use key such as `<localleader>b` to bold char under cursor in `NORMAL` mode or selected content in `VISUAL` mode. For LaTeX file, it will use `\textbf{<text>}`; for markdown file, it will use `**<text>**`.
 
 ### Markdown to LaTeX (or inverse)
-Provide command to transfer markdown source code to LaTeX code or inverse. Such as transfer `**text**` to `\textbf{text}` or inverse
+&emsp;&emsp;Provide command to transfer markdown source code to LaTeX code or inverse. Such as transfer `**text**` to `\textbf{text}` or inverse
