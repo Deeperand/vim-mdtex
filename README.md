@@ -2,7 +2,7 @@
 some useful command for markdown and LaTeX
 
 ## Install
-&emsp;&emsp;You can use any package management to install `vim-mdtex`. With `vim-plug`, just add current code to your `vimrc`:
+&emsp;&emsp;You can use any package manager to install `vim-mdtex`. With `vim-plug`, just add current code to your `vimrc`:
 
 ```vim
 call plug#begin('~/.vim/plugged')
