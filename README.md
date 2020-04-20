@@ -3,7 +3,7 @@ some useful command for markdown and LaTeX
 
 ## Illustrate
 &emsp;&emsp;The using of this plug is like this:
-![image](figure/vim-mdtex_illustrate.gif ) 
+![image](figure/vim-mdtex_illustration.gif ) 
 
 ## Install
 &emsp;&emsp;You can use any package manager to install `vim-mdtex`. With `vim-plug`, just add current code to your `vimrc`:
