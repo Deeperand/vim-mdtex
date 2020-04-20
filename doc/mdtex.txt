@@ -1,0 +1,7 @@
+*mdtex.txt* transfer markdown to LaTeX or reverse
+*mdtex*
+
+==============================================================================
+CONTENTS                                                        *mdtex-contents*
+
+vim:tw=78:sw=8:ft=help:norl:
