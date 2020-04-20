@@ -1,0 +1,52 @@
+\section{Font}
+\subsection{lable}
+    \begin{equation}
+        \label{eq: test}
+        test
+    \end{equation}
+
+    \begin{equation}
+        \label{eq: test}
+        test
+    \end{equation}
+
+\section{paragraph sapce}
+    \hspace*{2em} test
+
+\subsection{Code and code block}
+
+\section{List}
+    \subsection{Order List}
+        \begin{enumerate}
+            \item test1
+            \item test2
+        \end{enumerate}
+
+        \begin{enumerate}
+            \item test1
+            \item test2
+        \end{enumerate}
+
+    \subsection{Unorder List}
+        \begin{itemize}
+            \item test1
+            \item test2
+        \end{itemize}
+
+        \begin{itemize}
+            \item test1
+            \item test2
+        \end{itemize}
+
+\section{section/subsection/paragraph}
+    \section{test1}
+    \subsection{test2}
+    \paragraph{test3 \\}
+
+\section{figure}
+    \begin{figure}
+        \centering
+        ![image](figure/test.png)
+        ![image](figure/test.png)
+        \caption{test}\label{fig: test}
+    \end{figure}
